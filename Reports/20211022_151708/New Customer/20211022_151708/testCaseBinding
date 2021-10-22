@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Verify Customer Name - Iteration 1","testCaseId":"Test Cases/Verify Customer Name","bindedValues":{"cusName":"\u00271MangBao\u0027","error":"\u0027Numbers are not allowed\u0027"}}
+{"testCaseName":"Test Cases/Verify Customer Name - Iteration 2","testCaseId":"Test Cases/Verify Customer Name","bindedValues":{"cusName":"\u0027Mang%$Bao\u0027","error":"\u0027Special characters are not allowed\u0027"}}
+{"testCaseName":"Test Cases/Verify Customer Name - Iteration 3","testCaseId":"Test Cases/Verify Customer Name","bindedValues":{"cusName":"\u0027\u0027","error":"\u0027Customer name must not be blank\u0027"}}
+{"testCaseName":"Test Cases/Verify Customer Name - Iteration 4","testCaseId":"Test Cases/Verify Customer Name","bindedValues":{"cusName":"\u0027 MangBao\u0027","error":"\u0027First character can not have space\u0027"}}
+{"testCaseName":"Test Cases/Verify Customer Name - Iteration 5","testCaseId":"Test Cases/Verify Customer Name","bindedValues":{"cusName":"\u0027Mang Bao\u0027","error":"\u0027\u0027"}}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Customer Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f256aac5-edd9-4d56-a166-0befe1155584</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c3c00b81-812a-4753-9a74-9998d692036a</id>
+      <masked>false</masked>
+      <name>cusName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d0337c32-1923-4e13-aa68-7b5dfdf121d7</id>
+      <masked>false</masked>
+      <name>error</name>
+   </variable>
+</TestCaseEntity>

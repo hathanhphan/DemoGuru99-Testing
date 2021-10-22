@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Customer,Chrome 95.0.4638.54,,,2021-10-22 15:17:20,2021-10-22 15:18:18,58.350s,FAILED
+,,,,,,,
+Test Cases/Verify Customer Name,Chrome 95.0.4638.54,,,2021-10-22 15:17:20,2021-10-22 15:17:34,13.673s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-22 15:17:21,2021-10-22 15:17:25,3.929s,PASSED
+"navigateToUrl(""http://demo.guru99.com/v1/"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:25,2021-10-22 15:17:27,2.208s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_uid""), ""mngr358145"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:27,2021-10-22 15:17:28,1.011s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_password""), ""zytahur"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:28,2021-10-22 15:17:29,0.773s,PASSED
+"click(findTestObject(""Page_GTPL Bank Home Page/input_mandatory field_btnLogin""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:29,2021-10-22 15:17:30,1.804s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/a_New Customer""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:30,2021-10-22 15:17:31,0.918s,PASSED
+"setText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/input__name""), cusName)",Chrome 95.0.4638.54,,,2021-10-22 15:17:31,2021-10-22 15:17:32,0.760s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/textarea__addr""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:32,2021-10-22 15:17:33,0.521s,PASSED
+"verifyElementText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/label_Customer name error""), error)",Chrome 95.0.4638.54,,,2021-10-22 15:17:33,2021-10-22 15:17:33,0.501s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-10-22 15:17:33,2021-10-22 15:17:34,0.821s,PASSED
+,,,,,,,
+Test Cases/Verify Customer Name,Chrome 95.0.4638.54,,,2021-10-22 15:17:34,2021-10-22 15:17:45,11.182s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-22 15:17:34,2021-10-22 15:17:36,2.106s,PASSED
+"navigateToUrl(""http://demo.guru99.com/v1/"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:36,2021-10-22 15:17:38,2.155s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_uid""), ""mngr358145"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:38,2021-10-22 15:17:39,0.952s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_password""), ""zytahur"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:39,2021-10-22 15:17:40,0.705s,PASSED
+"click(findTestObject(""Page_GTPL Bank Home Page/input_mandatory field_btnLogin""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:40,2021-10-22 15:17:42,1.784s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/a_New Customer""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:42,2021-10-22 15:17:43,0.928s,PASSED
+"setText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/input__name""), cusName)",Chrome 95.0.4638.54,,,2021-10-22 15:17:43,2021-10-22 15:17:43,0.760s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/textarea__addr""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:43,2021-10-22 15:17:44,0.482s,PASSED
+"verifyElementText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/label_Customer name error""), error)",Chrome 95.0.4638.54,,,2021-10-22 15:17:44,2021-10-22 15:17:44,0.470s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-10-22 15:17:44,2021-10-22 15:17:45,0.811s,PASSED
+,,,,,,,
+Test Cases/Verify Customer Name,Chrome 95.0.4638.54,,,2021-10-22 15:17:45,2021-10-22 15:17:56,11.022s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-22 15:17:45,2021-10-22 15:17:47,2.085s,PASSED
+"navigateToUrl(""http://demo.guru99.com/v1/"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:47,2021-10-22 15:17:50,2.486s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_uid""), ""mngr358145"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:50,2021-10-22 15:17:51,0.805s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_password""), ""zytahur"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:51,2021-10-22 15:17:51,0.717s,PASSED
+"click(findTestObject(""Page_GTPL Bank Home Page/input_mandatory field_btnLogin""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:51,2021-10-22 15:17:53,1.610s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/a_New Customer""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:53,2021-10-22 15:17:54,0.902s,PASSED
+"setText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/input__name""), cusName)",Chrome 95.0.4638.54,,,2021-10-22 15:17:54,2021-10-22 15:17:55,0.719s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/textarea__addr""))",Chrome 95.0.4638.54,,,2021-10-22 15:17:55,2021-10-22 15:17:55,0.405s,PASSED
+"verifyElementText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/label_Customer name error""), error)",Chrome 95.0.4638.54,,,2021-10-22 15:17:55,2021-10-22 15:17:55,0.482s,PASSED
+closeBrowser(),Chrome 95.0.4638.54,,,2021-10-22 15:17:55,2021-10-22 15:17:56,0.797s,PASSED
+,,,,,,,
+Test Cases/Verify Customer Name,Chrome 95.0.4638.54,,,2021-10-22 15:17:56,2021-10-22 15:18:07,10.336s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-22 15:17:56,2021-10-22 15:17:58,2.078s,PASSED
+"navigateToUrl(""http://demo.guru99.com/v1/"")",Chrome 95.0.4638.54,,,2021-10-22 15:17:58,2021-10-22 15:18:01,2.208s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_uid""), ""mngr358145"")",Chrome 95.0.4638.54,,,2021-10-22 15:18:01,2021-10-22 15:18:01,0.838s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_password""), ""zytahur"")",Chrome 95.0.4638.54,,,2021-10-22 15:18:01,2021-10-22 15:18:02,0.693s,PASSED
+"click(findTestObject(""Page_GTPL Bank Home Page/input_mandatory field_btnLogin""))",Chrome 95.0.4638.54,,,2021-10-22 15:18:02,2021-10-22 15:18:04,1.595s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/a_New Customer""))",Chrome 95.0.4638.54,,,2021-10-22 15:18:04,2021-10-22 15:18:05,0.898s,PASSED
+"setText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/input__name""), cusName)",Chrome 95.0.4638.54,,,2021-10-22 15:18:05,2021-10-22 15:18:05,0.752s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/textarea__addr""))",Chrome 95.0.4638.54,,,2021-10-22 15:18:05,2021-10-22 15:18:06,0.510s,PASSED
+"verifyElementText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/label_Customer name error""), error)",Chrome 95.0.4638.54,,,2021-10-22 15:18:06,2021-10-22 15:18:07,0.746s,FAILED
+,,,,,,,
+Test Cases/Verify Customer Name,Chrome 95.0.4638.54,,,2021-10-22 15:18:07,2021-10-22 15:18:18,11.555s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.54,,,2021-10-22 15:18:07,2021-10-22 15:18:09,2.779s,PASSED
+"navigateToUrl(""http://demo.guru99.com/v1/"")",Chrome 95.0.4638.54,,,2021-10-22 15:18:09,2021-10-22 15:18:12,2.620s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_uid""), ""mngr358145"")",Chrome 95.0.4638.54,,,2021-10-22 15:18:12,2021-10-22 15:18:13,0.846s,PASSED
+"setText(findTestObject(""Page_GTPL Bank Home Page/input_()_password""), ""zytahur"")",Chrome 95.0.4638.54,,,2021-10-22 15:18:13,2021-10-22 15:18:14,0.745s,PASSED
+"click(findTestObject(""Page_GTPL Bank Home Page/input_mandatory field_btnLogin""))",Chrome 95.0.4638.54,,,2021-10-22 15:18:14,2021-10-22 15:18:15,1.531s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/a_New Customer""))",Chrome 95.0.4638.54,,,2021-10-22 15:18:15,2021-10-22 15:18:16,1.004s,PASSED
+"setText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/input__name""), cusName)",Chrome 95.0.4638.54,,,2021-10-22 15:18:16,2021-10-22 15:18:17,0.774s,PASSED
+"click(findTestObject(""Page_Gtpl Bank New Customer Entry Page/textarea__addr""))",Chrome 95.0.4638.54,,,2021-10-22 15:18:17,2021-10-22 15:18:17,0.526s,PASSED
+"verifyElementText(findTestObject(""Page_Gtpl Bank New Customer Entry Page/label_Customer name error""), error)",Chrome 95.0.4638.54,,,2021-10-22 15:18:17,2021-10-22 15:18:18,0.713s,FAILED

@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Customer" time="59.939" tests="5" failures="2" errors="0">
+   <testsuite name="New Customer" tests="5" failures="2" errors="0" time="59.939" skipped="0" timestamp="2021-10-22 15:17:20" hostname="HP - 169.254.113.163" id="Test Suites/New Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708"/>
+         <property name="logFiles" value="C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\1634890686809.png, C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\1634890686966.png, C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\1634890698411.png, C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\1634890698551.png"/>
+         <property name="hostName" value="HP - 169.254.113.163"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="169.254.113.163"/>
+         <property name="sessionId" value="9614f925652cf8a52e20c92e26808d49"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verify Customer Name" time="13.673" classname="Test Cases/Verify Customer Name" status="PASSED">
+         <system-out><![CDATA[2021-10-22 15:17:20 - [TEST_CASE][PASSED] - Test Cases/Verify Customer Name: Test Cases/Verify Customer Name
+
+2021-10-22 15:17:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-22 15:17:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 15:17:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 15:17:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-22 15:17:25 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/v1/"): Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:17:27 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:17:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_uid"), "mngr358145"): Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:17:28 - [MESSAGE][PASSED] - Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:17:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_password"), "zytahur"): Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:17:29 - [MESSAGE][PASSED] - Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_GTPL Bank Home Page/input_mandatory field_btnLogin")): Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:17:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/a_New Customer")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:17:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gtpl Bank New Customer Entry Page/input__name"), cusName): Text '1MangBao' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:17:32 - [MESSAGE][PASSED] - Text '1MangBao' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:17:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/textarea__addr")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:17:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Gtpl Bank New Customer Entry Page/label_Customer name error"), error): Actual text and expected text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are matched.
+
+2021-10-22 15:17:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are matched.
+
+2021-10-22 15:17:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-22 15:17:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Customer Name" time="11.182" classname="Test Cases/Verify Customer Name" status="PASSED">
+         <system-out><![CDATA[2021-10-22 15:17:34 - [TEST_CASE][PASSED] - Test Cases/Verify Customer Name: Test Cases/Verify Customer Name
+
+2021-10-22 15:17:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-22 15:17:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 15:17:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 15:17:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-22 15:17:36 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/v1/"): Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:17:38 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:17:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_uid"), "mngr358145"): Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:17:39 - [MESSAGE][PASSED] - Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:17:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_password"), "zytahur"): Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:17:40 - [MESSAGE][PASSED] - Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_GTPL Bank Home Page/input_mandatory field_btnLogin")): Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/a_New Customer")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:17:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gtpl Bank New Customer Entry Page/input__name"), cusName): Text 'Mang%$Bao' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:17:43 - [MESSAGE][PASSED] - Text 'Mang%$Bao' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/textarea__addr")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:17:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Gtpl Bank New Customer Entry Page/label_Customer name error"), error): Actual text and expected text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are matched.
+
+2021-10-22 15:17:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are matched.
+
+2021-10-22 15:17:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-22 15:17:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Customer Name" time="11.022" classname="Test Cases/Verify Customer Name" status="PASSED">
+         <system-out><![CDATA[2021-10-22 15:17:45 - [TEST_CASE][PASSED] - Test Cases/Verify Customer Name: Test Cases/Verify Customer Name
+
+2021-10-22 15:17:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-22 15:17:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 15:17:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 15:17:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-22 15:17:47 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/v1/"): Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:17:50 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:17:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_uid"), "mngr358145"): Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:17:51 - [MESSAGE][PASSED] - Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:17:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_password"), "zytahur"): Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:17:51 - [MESSAGE][PASSED] - Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:17:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_GTPL Bank Home Page/input_mandatory field_btnLogin")): Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/a_New Customer")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:17:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gtpl Bank New Customer Entry Page/input__name"), cusName): Text '' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:17:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:17:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/textarea__addr")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:17:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Gtpl Bank New Customer Entry Page/label_Customer name error"), error): Actual text and expected text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are matched.
+
+2021-10-22 15:17:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are matched.
+
+2021-10-22 15:17:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-22 15:17:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Customer Name" time="10.336" classname="Test Cases/Verify Customer Name" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Customer Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-10-22 15:17:56 - [TEST_CASE][FAILED] - Test Cases/Verify Customer Name: Test Cases/Verify Customer Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-10-22 15:17:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-22 15:17:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 15:17:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 15:17:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-22 15:17:58 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/v1/"): Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:18:01 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:18:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_uid"), "mngr358145"): Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:18:01 - [MESSAGE][PASSED] - Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:18:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_password"), "zytahur"): Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:18:02 - [MESSAGE][PASSED] - Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_GTPL Bank Home Page/input_mandatory field_btnLogin")): Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/a_New Customer")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:18:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gtpl Bank New Customer Entry Page/input__name"), cusName): Text ' MangBao' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:18:05 - [MESSAGE][PASSED] - Text ' MangBao' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/textarea__addr")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:18:06 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Page_Gtpl Bank New Customer Entry Page/label_Customer name error"), error): Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-10-22 15:18:06 - [MESSAGE][FAILED] - Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\1634890686809.png]]
+
+2021-10-22 15:18:07 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\1634890686966.png]]]]></system-out>
+         <system-err><![CDATA[2021-10-22 15:17:56 - [TEST_CASE][FAILED] - Test Cases/Verify Customer Name: Test Cases/Verify Customer Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Customer Name" time="11.555" classname="Test Cases/Verify Customer Name" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Customer Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text '' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-10-22 15:18:07 - [TEST_CASE][FAILED] - Test Cases/Verify Customer Name: Test Cases/Verify Customer Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text '' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-10-22 15:18:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-22 15:18:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-22 15:18:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-22 15:18:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-22 15:18:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-22 15:18:09 - [TEST_STEP][PASSED] - navigateToUrl("http://demo.guru99.com/v1/"): Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:18:12 - [MESSAGE][PASSED] - Navigate to 'http://demo.guru99.com/v1/' successfully
+
+2021-10-22 15:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_uid"), "mngr358145"): Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:18:13 - [MESSAGE][PASSED] - Text 'mngr358145' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_uid'
+
+2021-10-22 15:18:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_GTPL Bank Home Page/input_()_password"), "zytahur"): Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:18:14 - [MESSAGE][PASSED] - Text 'zytahur' is set on object 'Object Repository/Page_GTPL Bank Home Page/input_()_password'
+
+2021-10-22 15:18:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_GTPL Bank Home Page/input_mandatory field_btnLogin")): Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GTPL Bank Home Page/input_mandatory field_btnLogin' is clicked on
+
+2021-10-22 15:18:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/a_New Customer")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/a_New Customer' is clicked on
+
+2021-10-22 15:18:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Gtpl Bank New Customer Entry Page/input__name"), cusName): Text 'Mang Bao' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:18:17 - [MESSAGE][PASSED] - Text 'Mang Bao' is set on object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/input__name'
+
+2021-10-22 15:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Gtpl Bank New Customer Entry Page/textarea__addr")): Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gtpl Bank New Customer Entry Page/textarea__addr' is clicked on
+
+2021-10-22 15:18:17 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Page_Gtpl Bank New Customer Entry Page/label_Customer name error"), error): Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text '' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-10-22 15:18:18 - [MESSAGE][FAILED] - Actual text 'Numbers are not allowed' and expected text '' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text '' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\1634890698411.png]]
+
+2021-10-22 15:18:18 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text '' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\HP\\git\\DemoGuru99-Testing\\Reports\\20211022_151708\\New Customer\\20211022_151708\\1634890698551.png]]]]></system-out>
+         <system-err><![CDATA[2021-10-22 15:18:07 - [TEST_CASE][FAILED] - Test Cases/Verify Customer Name: Test Cases/Verify Customer Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text '' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-22 15:17:20 - [TEST_SUITE][FAILED] - New Customer: Test Cases/Verify Customer Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-10-22 15:17:20 - [TEST_SUITE][FAILED] - New Customer: Test Cases/Verify Customer Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$3.call(Unknown Source)
+	at Verify Customer Name.run(Verify Customer Name:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634890628260.run(TempTestSuite1634890628260.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Numbers are not allowed' and expected text 'First character can not have space' of test object 'Object Repository/Page_Gtpl Bank New Customer Entry Page/label_Customer name error' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
